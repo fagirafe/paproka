@@ -28,7 +28,7 @@
 Склонируйте проект к себе на локальную машину (замените `[REPO_URL]` на фактическую ссылку после создания репозитория):
 
 ```bash
-git clone [REPO_URL]
+git clone https://github.com/fagirafe/paproka.git
 cd paprika
 ```
 
