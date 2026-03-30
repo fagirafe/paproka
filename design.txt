@@ -1,0 +1,2 @@
+Implement this design from Figma.
+@https://www.figma.com/design/QyqrpjIueXJv5gzErsIMA6/PAPRIKA?node-id=2-249&m=dev
