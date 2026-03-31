@@ -4,13 +4,13 @@ import { useState } from "react";
 import { FooterSection } from "@/components/ui/footer-section";
 import { LoadingAnimation } from "@/components/ui/LoadingAnimation";
 
-// Asset URLs from Figma MCP
-const imgDsc003191 = "http://localhost:3845/assets/d0a25c004aae6a2ca7a830569ca22a2fafdc0ae1.png";
-const imgImage2 = "http://localhost:3845/assets/b7a7aa03759f8a3528b4cda6225af8956a60765c.png";
-const imgImage3 = "http://localhost:3845/assets/bd54c64b552db44f7b48293a31fa55c106ce108c.png";
-const imgImage4 = "http://localhost:3845/assets/2ff2f5947100f862552e80f18bcbefe81d783504.png";
-const imgImage1Vectorized = "http://localhost:3845/assets/d2d90945c958d34039b2a87eb6be17e1961d9b8c.svg";
-const imgLogoWord2026 = "http://localhost:3845/assets/b92cdd34714baf4251d48327afd6406714070472.svg";
+// Asset URLs - using public folder for GitHub Pages compatibility
+const imgDsc003191 = "/assets/hero-bg.png";
+const imgImage2 = "/assets/profile1.png";
+const imgImage3 = "/assets/case1.png";
+const imgImage4 = "/assets/case2.png";
+const imgImage1Vectorized = "/assets/vector.svg";
+const imgLogoWord2026 = "/assets/logo.svg";
 
 /* ── Tag pill component ── */
 function TagPill({ children }: { children: string }) {
